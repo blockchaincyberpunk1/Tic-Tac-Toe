@@ -1,7 +1,9 @@
 button {
     font-size: 60px;
+    display: inline-block;
     height: 100px;
     margin: 4px 2px;
+    text-align: center;
     vertical-align: top;
     width: 100px;
   }
