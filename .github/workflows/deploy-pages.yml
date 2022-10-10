@@ -35,6 +35,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+  
 # Workflow Jobs
 jobs:
   setup-pages:
