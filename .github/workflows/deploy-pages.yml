@@ -53,7 +53,7 @@ jobs:
           mkdir staging
           cp -R css staging/ 
           cp -R js staging/
-          cp tictactoe.html staging/
+          cp index.html staging/
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -75,4 +75,4 @@ jobs:
         if: success()
         id: deployment
         uses: actions/deploy-pages@v1
-        
+
